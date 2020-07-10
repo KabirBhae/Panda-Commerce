@@ -1,5 +1,5 @@
 .container{
-    margin-top: 100px;
+    margin-bottom: 90px;
 }
 .carousel-bg{
     border-radius: 10px;
@@ -19,4 +19,35 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cat1{
+    background-color: orange;
+    background-image: linear-gradient(to right,rgb(255, 235, 51),orange);
+}
+.cat2{
+    background-color: orchid;
+    background-image: linear-gradient(to right,rgb(255, 139, 158),rgb(255, 30, 68));
+}
+.cat3{
+    background-image: linear-gradient(to right,rgb(42, 110, 255),blue);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightcoral;
+}
+#subscribe{
+    height: 300px;
+}
+footer{
+    text-align: center;
 }
